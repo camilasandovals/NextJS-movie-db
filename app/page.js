@@ -1,9 +1,10 @@
-import Image from 'next/image'
+import Hero from "./shared/Hero";
+
 
 export default function Home() {
   return (
     <main>
-      <h1 className='text-2xl font-semibold text-orange-400'>My Movie Database</h1>
+      <Hero />
     </main>
   )
 }

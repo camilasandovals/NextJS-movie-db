@@ -1,3 +1,5 @@
+import MovieScroll from "../shared/MovieScroll"
+
 export function generateStaticParams() {
 
     return [ 
@@ -22,6 +24,7 @@ export default function Page({params: {genre}}){
         <h1 className='capitalize text-2xl font-semibold text-orange-400'>
             {genre} Movies
         </h1>
+        <MovieScroll genre={genre} number={12} />
         </main>
     )
 

@@ -6,9 +6,9 @@ export default function Home() {
   return (
     <main>
       <Hero />
-      <MovieScroll genre="Comedy" number={3} />
-      <MovieScroll genre="Drama" number={3} />
-      <MovieScroll genre="Horror" number={3} />
+      <MovieScroll genre="comedy" number={6} />
+      <MovieScroll genre="drama" number={6} />
+      <MovieScroll genre="horror" number={6} />
     </main>
   )
 }

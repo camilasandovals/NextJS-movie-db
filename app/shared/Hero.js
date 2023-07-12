@@ -10,6 +10,7 @@ export default function Hero() {
                         <p className="mb-8 leading-relaxed">
                             An office worker with a bad case of insomnia teams up with a rebel soap maker and insanity ensues.
                         </p>
+                        <a href="https://www.imdb.com/title/tt0137523/" className="text-white bg-orange-400 border-0 py-2 px-6 focus:outline-none hover:bg-orange-500 rounded-lg text-lg">Learn More</a>
                 </div>
                 <div className="w-5/6 md:w-1/2 lg:w-full lg:max-w-lg">
                     <img className="object-cover object-center rounded" alt="hero" src="https://i.etsystatic.com/18242346/r/il/c9908e/2412674268/il_fullxfull.2412674268_1sgm.jpg" />
